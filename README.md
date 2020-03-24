@@ -10,7 +10,24 @@ An Aim can be established once we start working on the project
 
 2. However, it is required for all developers to store a copy of their code as a regular .py file in the releases folder, once a significant milestone in development has been reached
 
+3. Every single function, class and object, MUST be documented using the best practices. Some guidelines are
 
+```
+def someFunction():
+  """
+  One Line summary of the function.
+  
+  A detailed description of the logic of the function.
+  
+  Paramenters: (A list of all variables, libraries, classes, objects etc used in the function)
+  something (int): for this purpose
+  somethingelse (string): for this purpose
+  
+  
+  Return: (to specify what is going to be returned by this particular function)
+  
+"""
+```
 
 ## Folder Structure
 
@@ -29,7 +46,7 @@ All source code goes here
 
 
 ### Tests
-All unit tests go here. (Crucial for Fast Development and Testing
+All unit tests go here. (Crucial for Fast Development and Testing)
 
 
 ### Releases
