@@ -1,5 +1,5 @@
 # Aim of this Project
-
+An Aim can be established once we start working on the project
 
 
 
@@ -28,7 +28,7 @@ All Documentation related to tests, scripts, code, API Syntaxes, must go here
 All source code goes here
 
 
-### tests
+### Tests
 All unit tests go here. (Crucial for Fast Development and Testing
 
 
