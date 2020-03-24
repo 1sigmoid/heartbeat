@@ -60,6 +60,6 @@ The code here can do lots of things. But we have to write it first
 
 # Development Track
 This is a tasklist for all major milestones that we have to get to in order to release a working version 1 of this project
-- [x] Readme Setup
+- [x] Readme Setup   (completed by @sumukshashidhar on 24 Mar)
 - [ ] Data Cleaning
 - [ ] Analysing the Cleaned Data
