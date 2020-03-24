@@ -53,10 +53,10 @@ All unit tests go here. (Crucial for Fast Development and Testing)
 Once a significant milestone in the development of the project has been reached, developers will provide a .py file for simplicity purposes, and to eliminate any redundant and test code that may be presesnt in the Jupyter Notebooks
 
 
-
-
 # Running the Code
 The code here can do lots of things. But we have to write it first
 
 
 
+# Development Track
+This is a tasklist for all major milestones that we have to get to in order to release a working version 1 of this project
