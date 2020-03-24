@@ -1,37 +1,17 @@
-## Welcome to GitHub Pages
+# Setup and Pre-requisites
+## Folder Structure
 
-You can use the [editor on GitHub](https://github.com/sumukshashidhar/heartbeat/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+### Datasets - Absent (Not in repository, but required to run the code)
+Make a folder called datasets in the root directory, and download two datasets from kaggle.
+1 > https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
+2 > https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Doc
+All Documentation related to tests, scripts, code, API Syntaxes, must go here
 
-### Markdown
+### Src
+All source code goes here
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/sumukshashidhar/heartbeat/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### tests
+All unit tests go here. (Crucial for Fast Development and Testing
