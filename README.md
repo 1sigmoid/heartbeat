@@ -3,7 +3,9 @@
 
 ### Datasets - Absent (Not in repository, but required to run the code)
 Make a folder called datasets in the root directory, and download two datasets from kaggle.
+
 1 > https://www.kaggle.com/allen-institute-for-ai/CORD-19-research-challenge
+
 2 > https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
 
 ### Doc
