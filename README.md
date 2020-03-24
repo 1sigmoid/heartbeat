@@ -38,6 +38,14 @@ Make a folder called datasets in the root directory, and download two datasets f
 
 2 > https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
 
+Extract the contents of these datasets into two folders. The CORD-19 dataset must be extracted into a folder named "cord19".
+
+The novel-corona-virus-2019 dataset must be extracted into a folder named "novelcoviddataset"
+
+
+
+__This extraction is the basis for the running of this program__
+
 ### Doc
 All Documentation related to tests, scripts, code, API Syntaxes, must go here
 
