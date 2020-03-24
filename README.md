@@ -61,5 +61,5 @@ The code here can do lots of things. But we have to write it first
 # Development Track
 This is a tasklist for all major milestones that we have to get to in order to release a working version 1 of this project
 
-[ ] Data Cleaning
-[ ] Analysing the Cleaned Data
+- [] Data Cleaning
+- [] Analysing the Cleaned Data
