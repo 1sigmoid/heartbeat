@@ -38,9 +38,9 @@ Make a folder called datasets in the root directory, and download two datasets f
 
 2 > https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset
 
-Extract the contents of these datasets into two folders. The CORD-19 dataset must be extracted into a folder named "cord19".
+Extract the contents of these datasets into two folders. The CORD-19 dataset must be extracted into a folder named "CORD-19".
 
-The novel-corona-virus-2019 dataset must be extracted into a folder named "novelcoviddataset"
+The novel-corona-virus-2019 dataset must be extracted into a folder named "NOVEL-CORD-2019"
 
 
 
@@ -69,5 +69,5 @@ The code here can do lots of things. But we have to write it first
 # Development Track
 This is a tasklist for all major milestones that we have to get to in order to release a working version 1 of this project
 - [x] Readme Setup  
-- [ ] Data Cleaning
+- [x] Data Cleaning
 - [ ] Analysing the Cleaned Data
