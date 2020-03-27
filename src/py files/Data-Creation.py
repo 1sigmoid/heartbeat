@@ -56,22 +56,22 @@ def datacreator(inputpath, outputpath):
     var2 = len(bodyls)
     var1 = len(abstractls)
     ps = PorterStemmer()
-    # for i in range(len(bodyls)):
-    #     if i%10 ==0: 
-    #         print("body", i , "/", var2)
-    #     current_list = bodyls[i]
+    for i in range(len(bodyls)):
+        if i%10 ==0: 
+            print("body", i , "/", var2, "Perecent done is ", 100*(i/var2))
+        current_list = bodyls[i]
 
-    #     for j in range(len(current_list)):
-    #         bodyls[i][j] = bodyls[i][j].lower()
-    #         bodyls[i][j] = re.sub('[^a-zA-Z]', ' ', bodyls[i][j])
-    #         bodyls[i][j] = bodyls[i][j].split()
-    #         bodyls[i][j] = [ps.stem(word) for word in bodyls[i][j] if not word in set(stopwords.words('english'))]
-    #         bodyls[i][j] = ' '.join(bodyls[i][j])
+        for j in range(len(current_list)):
+            bodyls[i][j] = bodyls[i][j].lower()
+            bodyls[i][j] = re.sub('[^a-zA-Z]', ' ', bodyls[i][j])
+            bodyls[i][j] = bodyls[i][j].split()
+            bodyls[i][j] = [ps.stem(word) for word in bodyls[i][j] if not word in set(stopwords.words('english'))]
+            bodyls[i][j] = ' '.join(bodyls[i][j])
 
 
     for i in range(len(abstractls)):
         if i%10==0: 
-            print("abstract", i, '/', var1)
+            print("abstract", i, '/', var1, "Perecent done is ", 100*(i/var1))
         clist2 = abstractls[i]
 
         for k in range(len(clist2)):
@@ -91,7 +91,7 @@ def datacreator(inputpath, outputpath):
 
 
 
-# datacreator('./../../datasets/CORD-19/biorxiv_medrxiv/biorxiv_medrxiv/', 'biomed')
+datacreator('./../../datasets/CORD-19/biorxiv_medrxiv/biorxiv_medrxiv/', 'biomed')
 datacreator('./../../datasets/CORD-19/comm_use_subset/comm_use_subset/', 'commonsub')
-# datacreator('./../../datasets/CORD-19/custom_license/custom_license/', 'custom_license')
-# datacreator('./../../datasets/CORD-19/noncomm_use_subset/noncomm_use_subset/', 'noncommonsub')
+datacreator('./../../datasets/CORD-19/custom_license/custom_license/', 'custom_license')
+datacreator('./../../datasets/CORD-19/noncomm_use_subset/noncomm_use_subset/', 'noncommonsub')
