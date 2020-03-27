@@ -87,8 +87,8 @@ def datacreator(inputpath, outputpath):
         f.write(str(bodyls))
 
 
-
+ 
 datacreator('./../../datasets/CORD-19/biorxiv_medrxiv/biorxiv_medrxiv/', 'biomed')
-datacreator('./../../datasets/CORD-19/comm_use_subset/comm_use_subset/', 'commonsub')
+# datacreator('./../../datasets/CORD-19/comm_use_subset/comm_use_subset/', 'commonsub')
 datacreator('./../../datasets/CORD-19/custom_license/custom_license/', 'custom_license')
-datacreator('./../../datasets/CORD-19/noncomm_use_subset/noncomm_use_subset/', 'noncommonsub')
+# datacreator('./../../datasets/CORD-19/noncomm_use_subset/noncomm_use_subset/', 'noncommonsub')
